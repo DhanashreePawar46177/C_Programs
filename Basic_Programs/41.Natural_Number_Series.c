@@ -7,7 +7,7 @@ int main()
 
          printf("\n\n\t============*********===============\n");
 
-         printf("\n\t Enter The Number = ");
+         printf("\n\t Enter Positive Integer Number = ");
          scanf("%d",&Num);
 
          for(Cnt = 1; Cnt <= Num; Cnt++)
