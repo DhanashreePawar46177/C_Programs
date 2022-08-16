@@ -8,7 +8,7 @@ int main()
          Up:
          printf("\n\t==============***********=================\n");
 
-         printf("\n\t Enter Positive Integral Number = ");
+         printf("\n\t Enter Positive Integer Number = ");
          scanf("%d",&Num);
 
          if(Num <= 1)
