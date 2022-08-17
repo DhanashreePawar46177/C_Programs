@@ -14,7 +14,7 @@ int main()
 
        for(Cnt = 1 ; Cnt <= 10 ; Cnt++)
        {
-             printf("\n\t\t %3d * %3d = %3d",Num * Cnt);
+             printf("\n\t\t %3d * %3d = %3d",Num,Cnt,Num * Cnt);
        }
 
        printf("\n\n===========*******************===========\n");
