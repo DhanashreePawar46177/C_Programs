@@ -15,7 +15,7 @@ int main()
         Cnt = 1 ;
        do
        {
-             printf("\n\t %d",Num * Cnt);
+             printf("\n\t %3d * %3d = %3d",Num,Cnt,Num * Cnt);
              Cnt++;
        }while(Cnt <= 10);
 
