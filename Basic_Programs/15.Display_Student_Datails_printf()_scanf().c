@@ -39,6 +39,7 @@ int main()
          printf("\n\t Roll Number = %d.\n\n\t Name        = %s.\n\n\t Percentage  = %0.2f.\n\n\t Grade       = %c.",Roll_No,Nm,Per,Grade);
 
          printf("\n\n****************************************************\n");
+         printf("\n\t\t Thanks !!!\n");
 
          getch();
          return 0;
