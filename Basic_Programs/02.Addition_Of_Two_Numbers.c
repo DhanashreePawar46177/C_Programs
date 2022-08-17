@@ -21,7 +21,7 @@ int main()
 
          getch();
 
-         printf("\n\t Thanks !!!");
+         printf("\n\t Thanks !!!\n");
 
          getch();
          return 0;
