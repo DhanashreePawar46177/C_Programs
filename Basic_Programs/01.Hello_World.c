@@ -8,7 +8,9 @@ int main()
         printf("\n\t HELLO WORLD !!!\n");
 
         printf("\n=============*****=============");
-
+        
+        printf("\n\n\t Thanks !!!\n");
+        
         getch();
         return 0;
 }
