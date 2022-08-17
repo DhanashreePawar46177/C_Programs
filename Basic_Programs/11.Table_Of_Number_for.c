@@ -14,13 +14,13 @@ int main()
 
        for(Cnt = 1 ; Cnt <= 10 ; Cnt++)
        {
-             printf("\n\t\t %d",Num * Cnt);
+             printf("\n\t\t %3d * %3d = %3d",Num * Cnt);
        }
 
        printf("\n\n===========*******************===========\n");
 
        getch();
-       printf("\n\t Thanks !!!");
+       printf("\n\t Thanks !!!\n");
 
        getch();
        return 0;
