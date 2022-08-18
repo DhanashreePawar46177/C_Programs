@@ -10,7 +10,7 @@ int main()
          printf("\n Enter Your Number = ");
          scanf("%d",&Num);
 
-         if(Num%2==0)
+         if(Num%2 == 0)
          {
                printf("\n\t %d is Even",Num);
          }
@@ -22,7 +22,7 @@ int main()
          printf("\n\n================*********================");
 
          getch();
-         printf("\n\n\t Thanks !!!");
+         printf("\n\n\t Thanks !!!\n");
 
          getch();
          return 0;
