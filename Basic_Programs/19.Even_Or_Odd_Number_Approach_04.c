@@ -11,13 +11,13 @@ int main()
          printf("\n Enter Your Number = ");
          scanf("%d",&Num);
 
-         if(Num==0)
+         if(Num == 0)
          {
                printf("\n\t %d is Neutral Number.\n Please Enter Another Number.",Num);
                system("cls");
                goto Up;
          }
-         if(Num%2==0)
+         if(Num % 2 == 0)
          {
                printf("\n\t %d is Even",Num);
          }
@@ -26,8 +26,8 @@ int main()
                printf("\n\t %d is Odd",Num);
          }
 
-         printf("\n\n\t Thanks !!!");
          printf("\n\n================*********================");
+         printf("\n\n\t Thanks !!!\n");
 
          getch();
          return 0;
