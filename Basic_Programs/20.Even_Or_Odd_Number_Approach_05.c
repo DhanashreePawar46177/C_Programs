@@ -18,9 +18,9 @@ int main()
          }
          (Num%2==0)? printf("\n\t %d is Even",Num):printf("\n\t %d is odd",Num);
 
-         printf("\n\n\t Thanks !!!");
          printf("\n\n================*********================");
-
+         printf("\n\t\t Thanks !!!\n");
+         
          getch();
          return 0;
 }
