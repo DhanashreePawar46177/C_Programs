@@ -20,6 +20,8 @@ int main()
          }
          
          printf("\n\n\t===============******===============\n");
+         printf("\n\t\t Thanks !!!");
+         
          getch();
          return 0;
 }
