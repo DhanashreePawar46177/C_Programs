@@ -11,9 +11,9 @@ int main()
          scanf("%d",&Num);
 
          (Num==0)? printf("\n\t %d is Neutral Number",Num):(Num%2==0)? printf("\n\t %d is Even Number",Num): printf("\n\t %d is Odd Number",Num);
-
-         printf("\n\n\t Thanks !!!");
+         
          printf("\n\n================*********================");
+         printf("\n\n\t\t Thanks !!!\n");
 
          getch();
          return 0;
