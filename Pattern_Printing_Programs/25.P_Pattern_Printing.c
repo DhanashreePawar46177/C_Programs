@@ -10,11 +10,11 @@ int main()
 
         printf("\n\n Pattern is =>\n\n");
 
-        for(r = 1; r <= Cnt+3; r++)
+        for(r = 1; r <= Cnt; r++)
         {
                 for(c = 1; c <= Cnt; c++)
                 {
-                        if(c == 1 || r == 1&& c<Cnt|| c == Cnt && r < (Cnt+1)/2 && r >1 || r == (Cnt+1)/2 && c <Cnt)
+                        if(c == 1 || r == 1 && c < Cnt|| c == Cnt && r < (Cnt+1)/2 && r >1 || r == (Cnt+1)/2 && c < Cnt)
                         {
                                 printf(" *");
                         }
@@ -31,5 +31,3 @@ int main()
         getch();
         return 0;
 }
-
-
