@@ -3,27 +3,24 @@
 
 int main()
 {
-         int r = 0, c = 0, rCnt = 0, cCnt = 0;
+         int r = 0, c = 0, Cnt = 0;
 
-         printf("\n Enter Row Count = ");
-         scanf("%d",&rCnt);
-
-         printf("\n Enter Odd Number For Column Count = ");
-         scanf("%d",&cCnt);
+         printf("\n Enter Odd Number for Count Of Rows and Columns = ");
+         scanf("%d",&Cnt);
 
          printf("\n pattern is =>\n\n");
 
-         for(r = 1; r <= rCnt; r++)
+         for(r = 1; r <= Cnt; r++)
          {
-                  for(c = 1; c <= cCnt; c++)
+                  for(c = 1; c <= Cnt; c++)
                   {
-                          if(r == 1 || r == rCnt || c == cCnt/2+1)
+                          if(r == 1 || r == Cnt || c == Cnt/2+1)
                           {
-                                printf(" * ");
+                                printf(" *");
                           }
                           else
                           {
-                                printf("   ");
+                                printf("  ");
                           }
                   }
                   printf("\n");
