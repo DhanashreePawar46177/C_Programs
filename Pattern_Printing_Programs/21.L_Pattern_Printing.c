@@ -5,7 +5,7 @@ int main()
 {
          int r = 0, c = 0, Cnt = 0;
 
-         printf("\n Enter Count For Rows and Columns = ");
+         printf("\n Enter Count Of Rows and Columns = ");
          scanf("%d",&Cnt);
 
          printf("\n Pattern is => \n\n");
@@ -14,7 +14,7 @@ int main()
          {
                 for(c = 1; c <= Cnt; c++)
                 {
-                    if(r == Cnt || c == 1)
+                    if(r == Cnt && c <= (Cnt/2+1) || c == 1)
                     {
                           printf(" *");
                     }
