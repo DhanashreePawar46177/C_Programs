@@ -3,23 +3,18 @@
 
 int main()
 {
-         int r = 0, c = 0, rCnt = 0, cCnt = 0;
+         int r = 0, c = 0, Cnt = 0;
 
-         printf("\n Please Enter Row Count is Greater Than Column Count\n");
-
-         printf("\n Enter Count For Rows = ");
-         scanf("%d",&rCnt);
-
-         printf("\n Enter Count For Columns = ");
-         scanf("%d",&cCnt);
+         printf("\n Enter Count Of Rows and Columns = ");
+         scanf("%d",&Cnt);
 
          printf("\n\n Pattern is =>\n\n");
 
-         for(r = 1; r <= rCnt; r++)
+         for(r = 1; r <= Cnt; r++)
          {
-                  for(c = 1; c <= cCnt; c++)
+                  for(c = 1; c <= Cnt; c++)
                   {
-                           if(r == 1 && c > 1 || r == rCnt && c > 1 || c == 1 && r > 1 && r < rCnt)
+                           if(r == 1 && c > 1 || r == Cnt && c > 1 || c == 1 && r > 1 && r < Cnt)
                             {
                                   printf(" *");
                             }
