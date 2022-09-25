@@ -5,22 +5,22 @@ int main()
 {
         int r = 0, c = 0, Cnt = 0;
 
-        printf("\n Enter Odd Number Count For Rows and Columns = ");
+        printf("\n Enter Count Of Rows and Columns = ");
         scanf("%d",&Cnt);
 
         printf("\n\n Pattern is =>\n\n");
 
-        for(r = 1; r <= Cnt+3; r++)
+        for(r = 1; r <= Cnt; r++)
         {
                 for(c = 1; c <= Cnt; c++)
                 {
-                        if(c== 1&&r<Cnt|| r==Cnt && c>1&&c<Cnt|| c==Cnt && r<Cnt)
+                        if(c == 1 && r < Cnt|| r == Cnt && c > 1 && c < Cnt || c == Cnt && r < Cnt)
                         {
-                                printf(" * ");
+                                printf(" *");
                         }
                         else
                         {
-                                printf("   ");
+                                printf("  ");
                         }
                 }
                 printf("\n");
@@ -31,4 +31,3 @@ int main()
         getch();
         return 0;
 }
-
