@@ -14,13 +14,13 @@ int main()
          {
                   for(c = 1; c <= Cnt; c++)
                   {
-                           if(r==1 && c!=1|| c==1 && r< (Cnt+1)/2 && r!=1 ||r == (Cnt+1)/2 && c < Cnt && c>1 || c == Cnt && r> (Cnt+1)/2 && r<Cnt || r==Cnt&& r>c)
+                           if(r == 1 && c != 1 || c == 1 && r < (Cnt+1)/2 && r != 1 || r == (Cnt+1)/2 && c < Cnt && c > 1 || c == Cnt && r > (Cnt+1)/2 && r < Cnt || r == Cnt && r > c)
                            {
-                                 printf(" * ");
+                                 printf(" *");
                            }
                            else
                            {
-                                 printf("   ");
+                                 printf("  ");
                            }
                   }
                   printf("\n");
