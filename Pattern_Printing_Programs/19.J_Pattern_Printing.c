@@ -14,7 +14,7 @@ int main()
         {
                 for(c = 1; c <= Cnt; c++)
                 {
-                        if(r == 1 || c == (Cnt+1)/2 && r < Cnt|| r == Cnt && c <= (Cnt+1)/2 && c >1 && c !=(Cnt+1)/2 &&c!=2|| c == 2 && r >= (Cnt+1)/2&&r<Cnt)
+                        if(r == 1 || c == (Cnt+1)/2 && r < Cnt|| r == Cnt && c <= (Cnt+1)/2 && c >1 && c != (Cnt+1)/2 && c != 1|| c == 1 && r >= (Cnt+1)/2 && r < Cnt)
                         {
                                 printf(" *");
                         }
