@@ -3,7 +3,7 @@
 
 int main()
 {
-        int Num[6] = {12, 23, 54, 78, 89, 65};
+        int Num[6] = {12, 23, 54, 67, 23, 65};
 
         printf("\n\n The Value Of 1st Number = %d",Num[0]);
         printf("\n\n The Value Of 2nd Number = %d",Num[1]);
