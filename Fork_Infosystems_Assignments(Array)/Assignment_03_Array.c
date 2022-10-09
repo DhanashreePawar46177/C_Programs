@@ -14,9 +14,9 @@ int main()
         printf("\n\n The 6th Element = %d",Arr[5]);
         printf("\n\n The 7th Element = %d",Arr[6]);
 
-        printf("\n\n Thanks !!!\n");
+        printf("\n\n Thanks !!! \n");
 
         getch();
-        return 0;
+        return o;
 }
 
