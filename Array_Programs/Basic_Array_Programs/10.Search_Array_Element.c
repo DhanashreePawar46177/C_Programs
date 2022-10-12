@@ -3,7 +3,7 @@
 
 int main()
 {
-        int Arr[7] = {}, i= 0, Search_Ele = 0;
+        int Arr[7] = {'\0'}, i= 0, Search_Ele = 0;
 
         printf("\n\n Enter Array Elements ==>");
 
