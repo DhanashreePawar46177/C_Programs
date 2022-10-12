@@ -3,7 +3,7 @@
 
 int main()
 {
-        int Marks[5] = {};
+        int Marks[5] = {'\0'};
 
         printf("\n\n Enter Marks Of 1st Student = ");
         scanf("%d",&Marks[0]);
