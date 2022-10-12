@@ -11,7 +11,7 @@ int main()
         printf("\n\n The Value Of 3rd Number = %d",Num[3]);
         printf("\n\n The Value Of 4th Number = %d",Num[4]);
 
-        printf("\n\n Thanks !!!\n");
+        printf("\n\n Thanks !!! \n");
 
         getch();
         return 0;
