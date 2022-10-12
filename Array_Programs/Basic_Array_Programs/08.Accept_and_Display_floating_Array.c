@@ -3,7 +3,7 @@
 
 int main()
 {
-        float Per[5] = {};
+        float Per[5] = {'\0'};
 
         printf("\n\n Enter Percentage Of 1st Student = ");
         scanf("%f",&Per[0]);
