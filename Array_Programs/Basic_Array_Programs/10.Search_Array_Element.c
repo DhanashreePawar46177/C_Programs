@@ -32,7 +32,7 @@ int main()
                 printf("\n\n Search Element is Not Found at any Location");
         }
 
-        printf("\n\n Thanks !!!\n");
+        printf("\n\n Thanks !!! \n");
 
         getch();
         return 0;
