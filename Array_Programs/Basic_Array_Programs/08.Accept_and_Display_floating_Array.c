@@ -16,7 +16,7 @@ int main()
         printf("\n\n Enter Percentage Of 5th Student = ");
         scanf("%f",&Per[4]);
 
-        printf("\n\n Thanks !!!\n");
+        printf("\n\n Thanks !!! \n");
 
         getch();
         return 0;
