@@ -3,7 +3,7 @@
 
 int main()
 {
-        int Num[5] = {};
+        int Num[5] = {'\0'};
 
         printf("\n\n The Value Of 0th Number = %d",Num[0]);
         printf("\n\n The Value Of 1st Number = %d",Num[1]);
