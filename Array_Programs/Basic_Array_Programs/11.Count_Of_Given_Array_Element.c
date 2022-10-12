@@ -3,7 +3,7 @@
 
 int main()
 {
-        int Arr[7] = {}, i = 0, Cnt = 0, No = 0;
+        int Arr[7] = {'\0'}, i = 0, Cnt = 0, No = 0;
 
 
         for(i = 0; i < 7; i++)
