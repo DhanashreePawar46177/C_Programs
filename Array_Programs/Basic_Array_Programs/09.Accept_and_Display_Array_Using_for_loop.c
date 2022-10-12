@@ -4,7 +4,7 @@
 
 int main()
 {
-        int Marks[10] = {}, i = 0;
+        int Marks[10] = {'\0'}, i = 0;
 
         for(i = 0; i < 5; i++)
         {
