@@ -3,7 +3,7 @@
 
 int main()
 {
-        int Arr[7] = {}, i = 0, Z_Cnt = 0;
+        int Arr[7] = {'\0'}, i = 0, Z_Cnt = 0;
 
         printf("\n\n Enter Array Elements For Finding Zero Count.");
         for(i = 0; i < 7; i++)
