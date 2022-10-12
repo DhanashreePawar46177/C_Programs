@@ -3,7 +3,7 @@
 
 int main()
 {
-        int Arr[7] = {}, i = 0, E_Cnt = 0;
+        int Arr[7] = {'\0'}, i = 0, E_Cnt = 0;
 
         printf("\n\n Enter Array Elements For Finding Even Count.");
         for(i = 0; i < 7; i++)
