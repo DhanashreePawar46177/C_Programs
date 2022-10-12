@@ -16,7 +16,7 @@ int main()
         printf("\n\n Enter Marks Of 4th Student = ");
         scanf("%d",&Marks[4]);
 
-        printf("\n\n Thanks !!!\n");
+        printf("\n\n Thanks !!! \n");
 
         getch();
         return 0;
