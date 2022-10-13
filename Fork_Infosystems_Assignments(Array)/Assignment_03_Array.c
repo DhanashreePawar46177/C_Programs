@@ -4,7 +4,7 @@
 
 int main()
 {
-        int Arr[7] = {};
+        int Arr[7] = {'\0'};
 
         printf("\n\n The 1st Element = %d",Arr[0]);
         printf("\n\n The 2nd Element = %d",Arr[1]);
