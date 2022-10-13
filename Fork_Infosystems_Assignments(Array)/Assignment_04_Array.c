@@ -5,7 +5,7 @@
 
 int main()
 {
-        int Arr[7] = {};
+        int Arr[7] = {'\0'};
 
         printf("\n\n Enter 1st Element = ");
         scanf("%d",&Arr[0]);
