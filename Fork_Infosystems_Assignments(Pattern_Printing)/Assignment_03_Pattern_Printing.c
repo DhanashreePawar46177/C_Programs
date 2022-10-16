@@ -18,7 +18,7 @@ int main()
 
          for(r = 1; r <= Cnt; r++)
          {
-                  for(c = 1,Ch='A'; c <= Cnt; c++)
+                  for(c = 1,Ch = 'A'; c <= Cnt; c++)
                   {
                            if(r >= c)
                            {
