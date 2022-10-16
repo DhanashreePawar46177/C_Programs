@@ -9,7 +9,7 @@
 int main()
 {
          int r = 0, c = 0, Cnt = 0;
-         char Ch ='A';
+         char Ch = 'A';
 
          printf("\n Enter Count Of Rows and Columns = ");
          scanf("%d",&Cnt);
