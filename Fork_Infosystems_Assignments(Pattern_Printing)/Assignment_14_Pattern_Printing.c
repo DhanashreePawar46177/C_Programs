@@ -14,7 +14,7 @@ int main()
          printf("\n Enter Count Rows and Columns = ");
          scanf("%d",&Cnt);
 
-         printf("\n\n Pattern is =>\n\n");
+         printf("\n\n Pattern is => \n\n");
 
          for(r = 1 ; r <= Cnt; r++)
          {
