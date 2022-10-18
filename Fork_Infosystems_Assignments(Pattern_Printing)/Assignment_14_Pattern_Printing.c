@@ -11,7 +11,7 @@ int main()
          int r = 0, c = 0, Cnt = 0;
          char Ch = '\0';
 
-         printf("\n Enter Count Rows and Columns = ");
+         printf("\n Enter Count for Rows and Columns = ");
          scanf("%d",&Cnt);
 
          printf("\n\n Pattern is => \n\n");
