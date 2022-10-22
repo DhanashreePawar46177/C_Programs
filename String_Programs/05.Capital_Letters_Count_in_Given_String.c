@@ -6,7 +6,7 @@ int main()
         char cSrc[50] = {'\0'};
         int Cnt = 0, i = 0;
 
-        puts("\n Enter a String.");
+        printf("\n Enter a String = ");
         gets(cSrc);
 
         while(cSrc[i] != '\0')
