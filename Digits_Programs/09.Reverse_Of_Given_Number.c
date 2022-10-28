@@ -11,6 +11,14 @@ int main()
 
         Temp = No;
 
+        if(No <= 0)
+        {
+               printf("\n Invalid Number. Please Enter Positive Integer Number.");
+               getch();
+               system("cls");
+               goto Up;
+        }
+        
         while(Temp > 0 || Temp < 0)
         {
                 Dig = Temp % 10;
