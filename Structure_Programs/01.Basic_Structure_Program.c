@@ -37,6 +37,8 @@ int main()
         printf("\n\n Student Details Given are => \n\n Roll No = %d. \n Name = %s. \n City = %s. \n Percentage = %0.2f. ",std1.Roll_No,std1.Name,std1.City,std1.Per);
         printf("\n\n Student Details Given are => \n\n Roll No = %d. \n Name = %s. \n City = %s. \n Percentage = %0.2f. ",std2.Roll_No,std2.Name,std2.City,std2.Per);
 
+        printf("\n\n Thanks !!!\n");
+        
         getch();
         return 0;
 }
