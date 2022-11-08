@@ -13,11 +13,11 @@ struct student
 int main()
 {
         int i = 0;
-        struct student std[2];
+        struct student std[10];
 
         printf("\n\n Accepting Student Details => \n");
 
-        for(i = 0; i <= 2; i++)
+        for(i = 0; i <= 10; i++)
         {
                 printf("\n Enter Roll Number = ");
                 scanf("%d",&std[i].Roll_No);
@@ -40,7 +40,7 @@ int main()
 
         printf("\n\n Displaying Student Details => ");
 
-        for(i = 0; i <= 2; i++)
+        for(i = 0; i <= 10; i++)
         {
                 printf("\n\n ****Student %d Details**** \n\n Roll Number = %d \n Name = %s \n City Name = %s \n Percentage = %0.2f.",i+1,std[i].Roll_No,std[i].Name,std[i].City,std[i].Per);
         }
