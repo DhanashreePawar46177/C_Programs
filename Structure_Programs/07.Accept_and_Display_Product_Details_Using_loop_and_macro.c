@@ -2,7 +2,7 @@
 #include<conio.h>
 #include<string.h>
 
-#define Count 2
+#define Count 10
 
 struct Product
 {
