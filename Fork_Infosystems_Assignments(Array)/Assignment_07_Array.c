@@ -1,7 +1,7 @@
 /// 07.Create,Accept,Display Array Using Loop - with macro,Search Given Element in that Array & Returns its Location If Found.
 #include<stdio.h>
 #include<conio.h>
-#include<string.h>
+#include<stdlib.h>
 
 #define Count 10
 
