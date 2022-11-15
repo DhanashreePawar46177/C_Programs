@@ -1,9 +1,9 @@
-/// Create,Accept,Display Array Using Loop - with macro,Search Given Element in that Array & Returns its Index If Found.
+/// 06.Create,Accept,Display Array Using Loop - with macro,Search Given Element in that Array & Returns its Index If Found.
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
 
-#define Count 5
+#define Count 10
 
 int main()
 {
