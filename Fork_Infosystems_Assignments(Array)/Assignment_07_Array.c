@@ -1,4 +1,4 @@
-/// 07.Create,Accept,Display Array Using Loop - with macro,Search Given Element in that Array & Returns its Location if Found.
+/// 07.Create,Accept,Display Array Using Loop - with macro,Search Given Element in that Array & Returns its Location If Found.
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
