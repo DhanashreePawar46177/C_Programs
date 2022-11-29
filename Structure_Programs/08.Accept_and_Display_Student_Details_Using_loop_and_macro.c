@@ -27,7 +27,7 @@ int main()
                 printf("\n Enter Name = ");
                 gets(Std[i].Name);
 
-                printf("\n Enter City = ");
+                printf("\n Enter City Name = ");
                 gets(Std[i].City);
 
                 fflush(stdin);
@@ -44,7 +44,8 @@ int main()
                 printf("\n\n *******Student %d Details*****\n Roll Number = %d.\n Name = %s.\n City = %s.\n Percentage = %0.2f.",i+1,Std[i].Roll_No,Std[i].Name,Std[i].City,Std[i].Per);
         }
 
-        printf("\n\n Thanks !!!!\n");
+        printf("\n\n Thanks !!!\n");
+
         getch();
         return 0;
 }
