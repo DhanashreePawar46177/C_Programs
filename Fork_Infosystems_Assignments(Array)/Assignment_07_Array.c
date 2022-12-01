@@ -43,7 +43,7 @@ int main()
             printf("\n %d is Not Found at any Location",S_Ele);
         }
 
-        printf("\n\n Thanks !!!\n");
+        printf("\n\n Thanks!!!\n");
 
         getch();
         return 0;
