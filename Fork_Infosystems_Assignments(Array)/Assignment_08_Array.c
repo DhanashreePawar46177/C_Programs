@@ -10,6 +10,7 @@ int main()
         int Arr[Count] = {'\0'};
         int i = 0, G_Ele = 0, Cnt = 0;
 
+        printf("\n\n==========================================================");
         printf("\n\n Enter Array Elements => \n");
 
         for(i = 0; i <= Count; i++)
@@ -20,11 +21,14 @@ int main()
 
         getch();
         system("cls");
+        
+        printf("\n\n==========================================================\n");
 
         for(i = 0;i <= Count; i++)
         {
                 printf("\n %d Array Element = %d",i+1,Arr[i]);
         }
+        printf("\n\n==========================================================");
 
         printf("\n\n Enter Element For Finding Count of Element = ");
         scanf("%d",&G_Ele);
@@ -38,6 +42,7 @@ int main()
         }
         printf("\n Count Of %d = %d",G_Ele,Cnt);
 
+        printf("\n\n==========================================================");
         printf("\n\n Thanks !!!\n");
 
         getch();
