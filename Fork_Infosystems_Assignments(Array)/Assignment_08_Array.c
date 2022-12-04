@@ -3,7 +3,7 @@
 #include<conio.h>
 #include<stdlib.h>
 
-#define Count 5
+#define Count 10
 
 int main()
 {
