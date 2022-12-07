@@ -43,7 +43,7 @@ int main()
         printf("\n Count Of %d = %d",G_Ele,Cnt);
 
         printf("\n\n==========================================================");
-        printf("\n\n Thanks !!!! \n");
+        printf("\n\n Thanks !!!\n");
 
         getch();
         return 0;
