@@ -23,7 +23,7 @@ int main()
         printf("\n\n Reverse Of Given String is = %s\n",cDest);
 
         printf("\n\n==========================================================");
-        printf("\n\n Thanks !!!\n");
+        printf("\n\n Thanks !!! \n");
 
         getch();
         return 0;
