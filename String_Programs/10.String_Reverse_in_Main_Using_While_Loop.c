@@ -31,7 +31,7 @@ int main()
         printf("\n\n Reverse Of Given String is = %s",cDest);
 
         printf("\n\n=======================================================================");
-        printf("\n\n Thanks !!!\n");
+        printf("\n\n Thanks!!!\n");
 
         getch();
         return 0;
