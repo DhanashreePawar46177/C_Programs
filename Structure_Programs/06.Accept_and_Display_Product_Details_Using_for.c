@@ -13,11 +13,11 @@ struct Product
 int main()
 {
         int  i = 0;
-        struct Product Prod[2];
+        struct Product Prod[20];
 
         printf("\n\n ****Accepting Product Details**** \n");
 
-        for(i = 0; i < 2; i++)
+        for(i = 0; i < 20; i++)
         {
                 printf("\n Enter Product ID = ");
                 scanf("%d",&Prod[i].P_ID);
@@ -39,7 +39,7 @@ int main()
 
         printf("\n\n ****Displaying Product Details**** \n");
 
-        for(i = 0; i < 2; i++)
+        for(i = 0; i < 20; i++)
         {
                 printf("\n\n **** Product %d Details ****\n\n ID = %d \n Name = %s \n Purchase Price = %0.2f \n Selling Price = %0.2f ",i+1,Prod[i].P_ID,Prod[i].Name,Prod[i].P_Price,Prod[i].S_Price);
         }
