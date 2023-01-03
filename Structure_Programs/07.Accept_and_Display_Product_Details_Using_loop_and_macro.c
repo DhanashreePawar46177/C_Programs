@@ -46,7 +46,7 @@ int main()
                 printf("\n\n **** Product %d Details ****\n\n ID = %d.\n Name = %s. \n Purchase Price = %0.2f. \n Selling Price = %0.2f. ",i+1,Prod[i].P_ID,Prod[i].Name,Prod[i].P_Price,Prod[i].S_Price);
         }
 
-        printf("\n\n Thanks !!!\n");
+        printf("\n\n Thanks!!!\n");
 
         getch();
         return 0;
