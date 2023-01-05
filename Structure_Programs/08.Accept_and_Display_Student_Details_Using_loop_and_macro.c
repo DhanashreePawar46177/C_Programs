@@ -2,7 +2,7 @@
 #include<conio.h>
 #include<string.h>
 
-#define Count 10
+#define Count 20
 
 struct Student
 {
