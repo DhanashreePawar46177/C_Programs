@@ -3,7 +3,7 @@
 #include<conio.h>
 #include<stdlib.h>
 
-#define Count 10
+#define Count 20
 int main()
 {
         int Arr[Count] = {'\0'};
