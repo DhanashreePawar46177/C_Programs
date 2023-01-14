@@ -3,7 +3,7 @@
 #include<conio.h>
 #include<stdlib.h>
 
-#define Count 20
+#define Count 10
 int main()
 {
         int i = 0, Min_Ele = 0;
