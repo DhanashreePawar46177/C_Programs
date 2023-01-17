@@ -32,7 +32,7 @@ int main()
                 }
         }
         printf("\n\n Minimum Element in Given Array is = %d",Min_Ele);
-        printf("\n\n Thanks !!!\n");
+        printf("\n\n Thanks!!!\n");
 
         getch();
         return 0;
