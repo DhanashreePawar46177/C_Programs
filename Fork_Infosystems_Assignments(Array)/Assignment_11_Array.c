@@ -9,9 +9,11 @@ int main()
         int i = 0;
         int Arr[Count] = {'\0'};
 
+       printf("\n Enter Array Elements => \n");
+
         for(i = 0; i < Count; i++)
         {
-                printf("\n Enter Array Elements = ");
+                printf("\n Enter %d Array Elements = ",i+1);
                 scanf("%d",&Arr[i]);
         }
         int Min_Ele = Arr[0],Max_Ele = Arr[0];
