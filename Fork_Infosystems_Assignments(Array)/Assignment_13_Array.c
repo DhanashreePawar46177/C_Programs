@@ -29,7 +29,6 @@ int main()
         printf("\n Odd Elements in given Array = %d",O_Cnt);
 
         printf("\n\n Thanks !!!\n");
-
         getch();
         return 0;
 }
