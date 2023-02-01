@@ -37,7 +37,7 @@ int main()
 
         printf("\n\n Even Count in Given Array = %d.\n\n Odd Count in Given Array = %d.\n\n Zero Count in Given Array = %d.",E_Cnt,O_Cnt,Z_Cnt);
 
-        printf("\n\n Thanks!!!\n");
+        printf("\n\n Thanks !!!\n");
 
         getch();
         return 0;
