@@ -26,7 +26,7 @@ int main()
 
         printf("\n Summation Of All Elements in Array = %d",Sum);
 
-        printf("\n\n Thanks !!! \n");
+        printf("\n\n Thanks!!! \n");
 
         getch();
         return 0;
