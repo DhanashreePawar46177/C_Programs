@@ -10,7 +10,7 @@ int main()
          printf("\n Enter First Number For Multiplication = ");
          scanf("%d",&Num1);
 
-         printf("\n Enter Second Number FOr Multiplication = ");
+         printf("\n Enter Second Number For Multiplication = ");
          scanf("%d",&Num2);
 
          Mult = Num1 * Num2;
